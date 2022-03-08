@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="site-header">
+      <header class="site__header">
         <h1>Andy Park: About</h1>
         <h2 class="sub-heading">My background and interests</h2>
         <nav class="primary-nav">
@@ -28,14 +28,13 @@
             <li><a href="/index.html">Blog</a></li>
           </ul>
         </nav>
-      </div>
-      <main class="site-main">
-        <h2 class="sr-only">Blog</h2>
-        <article class="entry content-box">
-          <header class="entry-top">
-            <h3 class="entry-title">Bio</h3>
+      </header>
+      <main class="site__main">
+        <section class="entry content-box">
+          <header class="entry__header">
+            <h3 class="entry__title">Bio</h3>
           </header>
-          <main>
+          <div>
             <p>
               I was born and raised in Saint Paul, Minnesota, <abbr title="United States of America">USA</abbr>.
               My background is in art and design, but I have always been insterested in computers as a hobby.
@@ -47,13 +46,13 @@
                as the lead instructor of an immersive 3 month program. I enjoy teaching because I like to talk about all
                things code related, and I like to help people discover how fun and interesting programming can be.
             </p>
-          </main>
-        </article>
-        <article class="entry content-box">
-          <header class="entry-top">
-            <h3 class="entry-title">Hobbies and Interests</h3>
+          </div>
+        </section>
+        <section class="entry content-box">
+          <header class="entry__header">
+            <h3 class="entry__title">Hobbies and Interests</h3>
           </header>
-          <main>
+          <div>
             <p>
               <dl>
                 <dt>I like working with:</dt><dd>Elixir, Typescript, React, Emacs</dd>
@@ -61,8 +60,8 @@
                 <dt>I like to play:</dt><dd>Pinball, Go, Shogi, Chess</dd>
               </dl>
             </p>
-          </main>
-        </article>
+          </div>
+        </section>
       </main>
     </div>
   </body>
